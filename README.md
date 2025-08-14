@@ -42,6 +42,33 @@ This project is ideal for those interested in **computer vision**, **ML integrat
 
 ---
 
+## 🧠 Recommendation Algorithm
+
+### How Recommendations Are Made
+Our system uses a **content-based recommendation approach** to suggest cosmetic products.  
+1. **User Input Collection** – Takes preferences or an image for facial analysis.  
+2. **Feature Extraction** – Converts skin type, tone, and concerns into a feature vector.  
+3. **Similarity Calculation** – Uses cosine similarity to compare user profile with products.  
+4. **Filtering Rules** – Removes incompatible items based on skin type, age, etc.  
+5. **Ranking & Output** – Recommends top N products based on relevance score.
+
+### Dataset Features Used
+| Feature Name           | Description |
+|------------------------|-------------|
+| Product Name           | Cosmetic/skincare product name |
+| Brand                  | Manufacturer |
+| Skin Type              | Target type (oily, dry, etc.) |
+| Skin Concern           | Problem addressed |
+| Ingredients            | Active components |
+| Finish/Effect          | Matte, glossy, hydrating |
+| SPF                    | Sun protection factor |
+| Tone/Shade             | Suitable skin tone |
+| Price                  | Price range |
+| Rating                 | Average user rating |
+| Category               | Product category |
+
+---
+
 ## 🤝 How to Contribute
 
 We’re actively looking for contributors who can help with:
